@@ -835,7 +835,8 @@ public class Infinario {
                 extras.getString("from").equals(senderId)) {
 
                 Log.d(Contract.TAG, "Received data: " + intent.getExtras().toString());
-                sendNotification(context, intent.getExtras(), preferences.getIcon());
+                // don't sjow Infinario notifications
+                //sendNotification(context, intent.getExtras(), preferences.getIcon());
             }
         }
     }
