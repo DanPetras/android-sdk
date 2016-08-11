@@ -25,13 +25,13 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.1.2'
     }
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-gcm:[3.1,)'
-    compile 'com.google.android.gms:play-services-ads:[3.1,)'
+    compile 'com.google.android.gms:play-services-gcm:9.2.0'
+    compile 'com.google.android.gms:play-services-ads:9.2.0'
 }
 
 apply from: 'maven-push.gradle'
